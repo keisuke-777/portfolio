@@ -2,10 +2,10 @@
   <div id="app">
     <Header></Header>
     <ScrollButton class="scroll"></ScrollButton>
-    <Content title="About"></Content>
-    <Content title="Product"></Content>
-    <Content title="Activity"></Content>
-    <Content title="Contact"></Content>
+    <About></About>
+    <Product></Product>
+    <Activity></Activity>
+    <Contact></Contact>
     <Footer></Footer>
   </div>
 </template>
@@ -13,7 +13,10 @@
 <script>
 import Header from "./components/Header.vue";
 import ScrollButton from "./components/ScrollButton.vue";
-import Content from "./components/Content.vue";
+import About from "./components/About.vue";
+import Product from "./components/Product.vue";
+import Activity from "./components/Activity.vue";
+import Contact from "./components/Contact.vue";
 import Footer from "./components/Footer.vue";
 import "normalize.css";
 
@@ -22,7 +25,10 @@ export default {
   components: {
     Header,
     ScrollButton,
-    Content,
+    About,
+    Product,
+    Activity,
+    Contact,
     Footer,
   },
 };
