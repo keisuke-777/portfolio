@@ -4,7 +4,7 @@
       <font-awesome-icon icon="book" class="icon" /> About
     </h1>
     <div>
-      <div class="about">
+      <div class="text">
         <font size="4" face="ＭＳ Ｐゴシック,ＭＳ ゴシック"
           >筑波大学 修士1年 hogehoge
           <hr />
@@ -23,10 +23,10 @@ export default {
 </script>
 
 <style scoped>
-.about {
+.text {
   display: inline-flex;
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-left: 20%;
+  padding-right: 20%;
 }
 
 .resent {
