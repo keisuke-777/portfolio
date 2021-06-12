@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <Header></Header>
+    <br />
     <ScrollButton class="scroll"></ScrollButton>
     <About id="about"></About>
     <Product id="product"></Product>
@@ -39,6 +40,7 @@ export default {
 #app {
   font-family: "Raleway", sans-serif;
   text-align: center;
+  background-color: #f3f3ec;
 }
 
 .content-title {

@@ -14,8 +14,15 @@
           <font size="4" face="メイリオ, Meiryo">
             麻雀の点数を入れると順位の点数などを考慮して、結果を自動精算し記録するアプリケーションを開発しました。
             既存のwebアプリにはない、支払い金額の計算やログインなしで利用できる機能などを盛り込み、扱いやすいようにしました。
-            すごいやつ
+            <br />
+            使用技術：ruby on rails + heroku
           </font>
+          <br />
+          <div class="button_wrapper">
+            <a href="https://mahjong-record.herokuapp.com/" class="access_btn"
+              >製作物にアクセス</a
+            >
+          </div>
         </div>
         <br />
         <hr />
@@ -67,5 +74,24 @@ export default {
 
 img.thumbnail {
   width: 100%;
+}
+
+.access_btn {
+  margin: 0 auto;
+  display: inline-block;
+  padding: 0.3em 1em;
+  text-decoration: none;
+  color: #070705;
+  border: solid 2px #9c9c9c;
+  border-radius: 3px;
+  transition: 0.4s;
+}
+
+.access_btn:hover {
+  background: #9c9c9c;
+  color: white;
+}
+.button_wrapper {
+  text-align: center;
 }
 </style>

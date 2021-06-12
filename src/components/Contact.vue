@@ -14,9 +14,9 @@
             :icon="['fab', 'twitter']"
             class="web-icon twitter"
         /></a>
-        <a href="hogehoge@gmail.com" class="link-icon"
+        <!-- <a href="hogehoge@gmail.com" class="link-icon"
           ><font-awesome-icon icon="envelope" class="web-icon mail"
-        /></a>
+        /></a> -->
         <a href="https://github.com/keisuke-777" class="link-icon"
           ><font-awesome-icon :icon="['fab', 'github']" class="web-icon github"
         /></a>
