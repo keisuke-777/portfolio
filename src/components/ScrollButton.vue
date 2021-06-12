@@ -1,15 +1,35 @@
 <template>
   <div>
-    <button class="sc-button">About</button>
+    <button class="sc-button" v-on:click="smoothScrollFunc('#about')">
+      About
+    </button>
     <!-- 自己紹介的なことを書く -->
-    <button class="sc-button">Product</button>
+    <button class="sc-button" v-on:click="smoothScrollFunc('#product')">
+      Product
+    </button>
     <!-- いわゆる製作物を書く -->
-    <button class="sc-button">Activity</button>
+    <button class="sc-button" v-on:click="smoothScrollFunc('#activity')">
+      Activity
+    </button>
     <!-- 課外活動とか表彰経験書く？？ -->
-    <button class="sc-button">Contact</button>
+    <button class="sc-button" v-on:click="smoothScrollFunc('#contact')">
+      Contact
+    </button>
     <!-- アカウントリスト -->
   </div>
 </template>
+
+<script>
+export default {
+  components: {},
+  methods: {
+    smoothScrollFunc(target) {
+      event.preventDefault();
+      this.$SmoothScroll(document.querySelector(target), 800, null, null, "y");
+    },
+  },
+};
+</script>
 
 <style>
 .sc-button {

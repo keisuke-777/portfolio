@@ -2,10 +2,10 @@
   <div id="app">
     <Header></Header>
     <ScrollButton class="scroll"></ScrollButton>
-    <About></About>
-    <Product></Product>
-    <Activity></Activity>
-    <Contact></Contact>
+    <About id="about"></About>
+    <Product id="product"></Product>
+    <Activity id="activity"></Activity>
+    <Contact id="contact"></Contact>
     <Footer></Footer>
   </div>
 </template>
@@ -39,5 +39,14 @@ export default {
 #app {
   font-family: "Raleway", sans-serif;
   text-align: center;
+}
+
+.content-title {
+  padding: 120px 0 20px 0;
+  margin: 50px 20% 100px 20%;
+  position: relative;
+  font-size: 2em;
+  color: #333;
+  border-bottom: rgba(12, 50, 78, 0.4) 3px solid;
 }
 </style>
